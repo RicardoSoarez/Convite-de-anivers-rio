@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convite 1º Aninho da Maya</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="invitation">
+        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBmaWxsPSIjZTk3YjliIiBkPSJNNDQ4IDBjLTM1LjMgMC02NCAyOC43LTY0IDY0czI4LjcgNjQgNjQgNjQgNjQtMjguNyA2NC02NC0yOC43LTY0LTY0LTY0em0tMjQwIDBjLTM1LjMgMC02NCAyOC43LTY0IDY0czI4LjcgNjQgNjQgNjQgNjQtMjguNyA2NC02NC0yOC43LTY0LTY0LTY0em0tMTI4IDBjLTM1LjMgMC02NCAyOC43LTY0IDY0czI4LjcgNjQgNjQgNjQgNjQtMjguNyA2NC02NC0yOC43LTY0LTY0LTY0em0tMTI4IDBjLTM1LjMgMC02NCAyOC43LTY0IDY0czI4LjcgNjQgNjQgNjQgNjQtMjguNyA2NC02NC0yOC43LTY0LTY0LTY0em0xMjggMTI4Yy0zNS4zIDAtNjQgMjguNy02NCA2NHMyOC43IDY0IDY0IDY0IDY0LTI4LjcgNjQtNjQtMjguNy02NC02NC02NHptMTI4IDBjLTM1LjMgMC02NCAyOC43LTY0IDY0czI4LjcgNjQgNjQgNjQgNjQtMjguNyA2NC02NC0yOC43LTY0LTY0LTY0em0xMjggMGMtMzUuMyAwLTY0IDI4LjctNjQgNjRzMjguNyA2NCA2NCA2NCA2NC0yOC43IDY0LTY0LTI4LjctNjQtNjQtNjR6bS0zODQgMGMtMzUuMyAwLTY0IDI4LjctNjQgNjRzMjguNyA2NCA2NCA2NCA2NC0yOC43IDY0LTY0LTI4LjctNjQtNjQtNjR6bTEyOCAxMjhjLTM1LjMgMC02NCAyOC43LTY0IDY0czI4LjcgNjQgNjQgNjQgNjQtMjguNyA2NC02NC0yOC43LTY0LTY0LTY0em0xMjggMGMtMzUuMyAwLTY0IDI4LjctNjQgNjRzMjguNyA2NCA2NCA2NCA2NC0yOC43IDY0LTY0LTI4LjctNjQtNjQtNjR6bS0yNTYgMGMtMzUuMyAwLTY0IDI4LjctNjQgNjRzMjguNyA2NCA2NCA2NCA2NC0yOC43IDY0LTY0LTI4LjctNjQtNjQtNjR6Ii8+PC9zdmc+" class="mermaid-icon" alt="Ícone de sereia">
+        
+        <h1>Lorena</h1>
+        
+        <p class="message">
+            Uma data muito especial está chegando, e você está convidado para comemorar com a gente o 1º aninho da nossa pequena sereia.
+        </p>
+        
+        <div class="divider"></div>
+        
+        <div class="date">
+            Domingo, 27 Abril<br>
+            Horário: 16:00hs
+        </div>
+        
+        <div class="divider"></div>
+        
+        <button class="action-button" onclick="toggleDetails('presenca')">Confirmar presença</button>
+        <div id="presenca" class="details">
+            <p>Por favor, confirme sua presença até dia 18/04 enviando mensagem para +55 (83) 8889-6745 ou respondendo este convite.</p>
+            <button onclick="openWhats()" style="background: #b27be6; color: white; border: none; padding: 8px 15px; border-radius: 5px; margin-top: 10px; cursor: pointer;">Confirma Presença</button>
+        </div>
+        
+        <button class="action-button" onclick="toggleDetails('local')">Local da festa</button>
+        <div id="local" class="details">
+            <p><strong>Local:</strong> Prime recepções<br>
+            <strong>Endereço:</strong> Rua Professora Maria José de Paiva Vicente Conde, Paraiba, Brazil<br>
+            <strong>Estacionamento:</strong> Disponível no local</p>
+            <button onclick="openMaps()" style="background: #b27be6; color: white; border: none; padding: 8px 15px; border-radius: 5px; margin-top: 10px; cursor: pointer;">Abrir no Map´s</button>
+        </div>
+        
+        <button class="action-button" onclick="toggleDetails('presente')">Sugestão de presente</button>
+        <div id="presente" class="details">
+            <p>Sua presença já é o melhor presente! Contamos com seu comparecimento!! "<3" </p>
+        </div>
+    </div>
+
+
+    <script src="scripts.js"></script>
+</body>
+</html>
